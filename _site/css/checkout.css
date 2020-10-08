@@ -58,7 +58,7 @@ p {
 
 .cardDetails {
     display: grid;
-    grid-template-columns: minmax(100px, 200px) 100px minmax(80px, 120px) 40px;
+    grid-template-columns: minmax(100px, 200px) minmax(80px, 100px) minmax(80px, 120px) 40px;
     grid-template-rows: 40px 30px;
     grid-gap: 7px;
 }
