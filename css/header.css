@@ -1,6 +1,6 @@
 .nav {
     display: grid;
-    grid-template-columns: 255px auto 210px;
+    grid-template-columns: 255px auto;
     grid-template-rows: 70px;
     position: sticky;
     width: 100%;
