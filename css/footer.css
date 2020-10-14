@@ -4,9 +4,10 @@
     display: grid;
     grid-template-columns: 300px repeat(3, minmax(150px, 300px));
     grid-template-rows: auto;
-    position: sticky;
+    position: relative;
     margin: 0;
     background-color: rgba(254, 229, 222);
+    bottom: 0;
 }
 
 .footerLogo {
@@ -65,14 +66,6 @@ li.category_name {
     display: none;
 }
 
-
-/* 
-@media screen and (max-width: 1000px) {
-    .three {
-        display: none;
-    }
-} */
-
 .forDisplay {
     display: none;
 }
@@ -122,16 +115,18 @@ li.category_name {
         margin: 10px 15px;
     }
     .part3 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: block;
         margin: 0px 40px;
         padding: 0;
+        right: 0;
+        text-align: right;
     }
     .instapic {
         height: 60px;
+        margin: 0 10px 0 auto;
     }
     .fbpic {
-        margin: 8px 20px 5px 20px;
+        margin: 8px auto 5px;
         height: 45px;
     }
 }

@@ -1,11 +1,10 @@
 .nav {
     display: grid;
-    grid-template-columns: 255px auto;
+    grid-template-columns: 255px auto 210px;
     grid-template-rows: 70px;
     position: sticky;
     width: 100%;
     margin: 0;
-    background-color: none;
     top: 0px;
     background-color: rgb(254, 229, 222);
 }

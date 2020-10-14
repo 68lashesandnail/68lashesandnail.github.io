@@ -47,14 +47,13 @@ a {
 
 p {
     font-size: 100%;
-    font-family: lato;
+    font-family: 'lato';
     line-height: 1.2;
     font-weight: lighter;
 }
 
 .page {
-    padding-bottom: 30px;
-    z-index: 1;
+    z-index: -1;
     position: relative;
     background-image: url(/src/666628.png);
     font-family: 'Oswald', sans-serif;
@@ -65,9 +64,11 @@ p {
 }
 
 body {
+    min-height: 100vh;
     position: relative;
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 @media screen and (max-width: 500px) {
