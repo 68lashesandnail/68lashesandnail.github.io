@@ -8,6 +8,7 @@
 
 <head>
     <!-- input the font style of Lato and Libre -->
+    <link rel="stylesheet" href="/css/header.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
     <meta charset="utf-8">
@@ -23,8 +24,23 @@
 
 <body>
     <!-- getting header from header.html -->
-    <nav id="header"></nav>
+    <nav>
+        <div class="nav">
+            <div class>
+                <a href="/"><img class="active logo" alt="logo" src="/src/logo.png" /></a>
 
+            </div>
+            <div class="navMiddle" id="mytopnav">
+                <ul>
+                    <li id="dropdownIcon"> <a href="javascript:void(0);" onclick="openNav()">&#9776; </a>
+                    </li>
+                    <li><a href="/html/shopping_page.html">Menu</a></li>
+                    <li><a href="/html/Contact_Us.html">Contact us</a></li>
+                    <!-- <li><a href="/html/About_Us.html">About us</a></li> -->
+                </ul>
+            </div>
+    </nav>
+    </div>
     <!-- webpage body -->
     <div class="page">
         <!-- top home page section with Make a booking button and brand quote and a cover picture -->
