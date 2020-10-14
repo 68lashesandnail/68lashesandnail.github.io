@@ -39,6 +39,10 @@ h1 {
     padding: 10px 30px;
 }
 
+a {
+    color: black;
+}
+
 .product {
     border: 0.005mm solid rgba(185, 182, 182, 0.75);
     border-radius: 10px;
