@@ -37,6 +37,25 @@ a {
     width: 100%;
 }
 
+.halfHalf {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 20px auto;
+}
+
+.content {
+    font-size: 140%;
+    font-weight: 100;
+}
+
+.promotion {
+    font-size: 80%;
+    margin: 10px auto;
+    padding: 30px;
+    max-width: 1047px;
+}
+
 .middle {
     text-align: center;
 }

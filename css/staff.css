@@ -1,0 +1,18 @@
+.list {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(360px, 400px));
+    grid-template-rows: auto;
+}
+
+.staffPic {
+    padding: 30px;
+    height: auto;
+    width: 100%;
+    display: block;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}

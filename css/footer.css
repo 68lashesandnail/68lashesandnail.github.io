@@ -111,14 +111,14 @@
     }
     .part3 {
         display: block;
-        margin: 0px 40px;
+        margin: 0px auto;
         padding: 0;
         right: 0;
         text-align: right;
     }
     .instapic {
         height: 60px;
-        margin: 0 10px 0 auto;
+        margin: 0 20px 0 auto;
     }
     .fbpic {
         margin: 8px auto 5px;
