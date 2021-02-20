@@ -13,8 +13,8 @@ a {
 
 .middle {
     display: block;
-    margin: 0;
-    oadding: 0;
+    margin: auto;
+    padding: 0;
 }
 
 .container {
