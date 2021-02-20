@@ -11,6 +11,12 @@ a {
     text-decoration: none !important;
 }
 
+.middle {
+    display: block;
+    margin: 0;
+    oadding: 0;
+}
+
 .container {
     display: block;
     width: 100%;
